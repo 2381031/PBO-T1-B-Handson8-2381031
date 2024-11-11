@@ -1,13 +1,11 @@
-package entities;
 
-import java.security.PrivateKey;
+package entities;
 
 public class TodoList {
     private String todo;
     private Integer id;
 
-    public TodoList(){
-
+    public TodoList() {
     }
 
     public String getTodo() {
@@ -22,7 +20,10 @@ public class TodoList {
         return id;
     }
 
-    public void setId(final Integer id) {
+    public void setId(Integer id) {
         this.id = id;
+    }
+
+    public void add(TodoList todoList) {
     }
 }
